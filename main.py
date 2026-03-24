@@ -16,9 +16,9 @@ MAX_LENGTH   = 144                    # VRChat Chatbox 字符上限
 DEBUG        = True
 
 # 只转发来自这些群的消息，留空则转发所有群消息
-ALLOWED_GROUPS: set[int] = set({495668263,3557735323})      # 例如: {123456789, 987654321}
+ALLOWED_GROUPS: set[int] = set()      # 例如: {123456789, 987654321}
 # 只转发来自这些用户的私聊，留空则转发所有私聊
-ALLOWED_PRIVATE: set[int] = set({495668263,3557735323})     # 例如: {123456789}
+ALLOWED_PRIVATE: set[int] = set()     # 例如: {123456789}
 
 # ========== 全局状态 ==========
 osc_client  = udp_client.SimpleUDPClient(OSC_HOST, OSC_PORT)
