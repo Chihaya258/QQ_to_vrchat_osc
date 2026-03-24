@@ -2,7 +2,9 @@
 将QQ消息转发至VRChat聊天框
 
 ## How To Use
-安装LLBot（https://luckylillia.com），在配置一栏启用OneBot 11，正向WebSocket，其余设置项保持默认（默认端口3001），随后运行
+安装LLBot:https://luckylillia.com
+
+在LLBot配置一栏启用OneBot 11，正向WebSocket，其余设置项保持默认（默认端口3001），随后运行
 
 安装python环境
 
